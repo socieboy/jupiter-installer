@@ -1,0 +1,25 @@
+{
+    "name": "socieboy/jupiter-installer",
+    "description": "Quick installer for Jupiter CMS.",
+    "keywords": ["socieboy", "cms", "jupiter"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Francisco Sepulveda",
+            "email": "socieboy@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Socieboy\\JupiterInstaller\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "~5.0",
+        "symfony/console": "~2.3|~3.0",
+        "symfony/process": "~2.3|~3.0"
+    },
+    "bin": [
+        "jupiter"
+    ]
+}
